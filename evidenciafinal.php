@@ -48,7 +48,7 @@ if ($respuesta1 == "S") :
         $empleados[] = ['nombre' => $nombre, 'dni' => $dni, 'genero' => $genero, 'edad' => $edad, 'estatura' => $estatura, 'peso' => $peso, 'fumador' => $fumador];
     }
 else :
-    echo "Adios\n";
+    echo "No quieres añadir nuevo personal, Cerrando....\n";
     exit; // Salimos del programa si el usuario no desea registrar empleados
 endif;
 
